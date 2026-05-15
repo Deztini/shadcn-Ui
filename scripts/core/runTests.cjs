@@ -1,5 +1,5 @@
 const fs = require('fs')
-const { execCommand } = require('../utils/exec')
+const { execCommand } = require('../utils/exec.cjs')
 
 function getTestScript () {
   try {
