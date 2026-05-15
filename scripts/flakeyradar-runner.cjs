@@ -1,8 +1,8 @@
-const { detectFramework } = require('./core/detectFramework')
-const { parseTestResults, getTotalTestCount } = require('./core/parseTestResults')
-const { rerunTests } = require('./core/rerunTests')
-const { runTests } = require('./core/runTests')
-const { writeJSON } = require('./utils/file')
+const { detectFramework } = require('./core/detectFramework.cjs')
+const { parseTestResults, getTotalTestCount } = require('./core/parseTestResults.cjs')
+const { rerunTests } = require('./core/rerunTests.cjs')
+const { runTests } = require('./core/runTests.cjs')
+const { writeJSON } = require('./utils/file.cjs')
 const fs = require('fs')
 
 async function main () {
