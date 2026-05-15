@@ -1,4 +1,4 @@
-const { execCommand } = require('../utils/exec')
+const { execCommand } = require('../utils/exec.cjs')
 
 function buildRerunCommand (test, framework) {
   switch (framework) {
