@@ -37,7 +37,7 @@ jobs:
          fi
 
       - name: Run FlakeyRadar
-        run: node scripts/flakeyradar-runner.js
+        run: node scripts/flakeyradar-runner.cjs
 
       - name: Send results
         run: |
